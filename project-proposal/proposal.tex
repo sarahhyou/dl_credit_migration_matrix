@@ -12,7 +12,9 @@
 \usepackage{multicol}
 \usepackage{xcolor}
 \usepackage{natbib}
+\usepackage{textcomp}
 \usepackage[font=small]{caption}
+\bibliographystyle{plainnat}
 \addtolength{\abovecaptionskip}{-3mm}
 \addtolength{\textfloatsep}{-5mm}
 \setlength\columnsep{20pt}
@@ -54,14 +56,14 @@
 	
 \begin{multicols*}{2}
 
-\section{Introduction}
+\section{Introduction}\label{introduction}
 
 This section introduces the scope of the research project. The section will begin with a discussion of the motivation behind the proposed project in terms of application scope and impact.
 The current practices in industry and its shortcomings will be discussed, which will be followed by an outline of objectives hoped to be achieved through this research. 
 Subsequently the proposal will go into an examination of existing work in predicting default migration matrices and estbalish where the project innovates beyond the current state of the art. 
 Finally, the main data sources to be used throughout the research project will be breifly examined.  
  
-\subsection{Motivation} 
+\subsection{Motivation}\label{motivation}
 
 Corpoate defaults have implications beyond the company itself. It represents a loss in the company's investors, lenders, and depending on the number of defaults in a time period, the macroeconomy as a whole.
 Understanding the likelihood of an obligor defaulting helps creditors screen for potential borrowers for more secure returns, investors price instruments at fair value and manage portfolios, and regulators assess the state of the market and decide whether or not to intervene.
@@ -78,20 +80,31 @@ Furthermore, credit ratings are assigned relative to other companies within each
 This means credit ratings are a lagging indicator and are slow to adapt changes in the general state of the economy, particularly changes in the broad environment that may not be directly correlated with the firm, giving the rise in demand for a more granular and objective measure of default risk.
 Thus Probability of Default (PD) models are born.
     
-\subsubsection{Probability of Default (PD)}
+\subsubsection{PD models in industry}\label{industry}
 
 Unlike credit ratings which assign obligors to a finite, often restrictive, set of credit quality indicators, a PD estimates a concrete probability to the obligor experiencing financial default.
-This allows rigorous comparisons between firms across agencies, scientific examinations of risk management practices, and timely updates. Despite not as widely accepted as credit ratings, 
-mostly due to lack of business familiarity and entrenchment of current regulatory practices around the old system, PDs are widely studied in econometrics, financial mathematics and machine learning.
-Additionally, S\&P itself are offering PD estimates for obligors in its database, clearly indicating that PDs are beginning to gain traction for commercial use.
+This allows rigorous comparisons between firms across agencies as well as scientific examinations of risk management practices. Due to these factors, PD has quickly gained popularity of usage in credit risk modelling, loan pricing, and portfolio management.
+As of the present, all of the "big three" (S\&P, Moody's and Fitch) ratings agencies, as well as many financial data service providers (eg. Bloomberg, Morningstar Refinitiv) are offering PD estimates for obligors in its database, a testament to the popularity of PDs in commercial use.
 
-\subsection{Objectives}
+The PD models for each of the three firms is undisclosed; however there are interesting numances from what information they have revealed. 
+The S\&P model uses a dataset of "default flags" (ie. financial statement ratios that can signal default) and derives its PDs with a Maximal Utility approach for optimization and k-fold Greedy Forward for variable selection bounded by AIC for model parsimony \citep{SP-PD-methodology}. 
+Fitch employs a Monte Carlo simulation model to estimate the probability and frequency of an obligor's assets falling below its liabilities, mostly relying on historical credit rating data \citep{Fitch-PD-methodology}. 
+Moody's exhibits the most comprehensive and complex model, using macroeconomic indicators on top of individual firm information, as well as incorporating credit migration matrices to calibrate its model over longer periods of time. The PDs appear to be calculated through a censorship-corrected survival analysis model \citep{Moodys-PD-methodology}.
 
-\subsection{Previous Works}
+Overall, these models use similar data as the credit ratings and employ relatively straightforward methodologies to model the occurrence of defaults within a credit portfolio. This once again lends to highly explicable PD results that might not fully capture the complexities in the market and broad economy.
+Naturally, more complex methods of modelling PDs were proposed and some will be examined in \ref{lit-review}.
 
-\subsection{Data Usage}
+\subsubsection{Credit Rating Migration Matrix}\label{CRMM}
 
-\section{Methodology}
+As briefly touched upon in the previous subsection, sth about credit rating migration matrices lol
+
+\subsection{Previous Works}\label{lit-review}
+
+\subsection{Objectives}\label{objectives}
+
+\subsection{Data Usage}\label{data}
+
+\section{Methodology}\label{methodology}
 
 %\begin{itemize}
 %    \item briefly describe the broad research area of the proposal;
@@ -126,7 +139,6 @@ Additionally, S\&P itself are offering PD estimates for obligors in its database
 
 \clearpage
 
-\bibliography{proposal}
-\bibliographystyle{plainnat}
+\bibliography{bb-ds-fellowship}
 	
 \end{document}

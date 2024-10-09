@@ -1,0 +1,27 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alma~Chen(2015)]{SP-PD-methodology}
+Giorgio~Baldassarri Alma~Chen.
+\newblock Pd model fundamentals: Banks - a pioneer model for assessing bank
+  creditworthiness, 2015.
+\newblock URL
+  \url{https://www.spglobal.com/marketintelligence/en/documents/pd-model-fundamentals-banks-a-pioneer-model-for-assessing-bank-creditworthiness.pdf}.
+
+\bibitem[Moody's(2018)]{Moodys-PD-methodology}
+Moody's.
+\newblock Features of a lifetime pd model: Evidence from public, private, and
+  rated firms, 2018.
+\newblock URL
+  \url{https://www.moodys.com/web/en/us/insights/credit-risk/features-of-a-lifetime-pd-model.html}.
+
+\bibitem[Ratings(2013)]{Fitch-PD-methodology}
+Fitch Ratings.
+\newblock Fitch portfolio credit model, 2013.
+\newblock URL \url{https://www.fitchratings.com/fitch-portfolio-credit-model}.
+
+\end{thebibliography}
