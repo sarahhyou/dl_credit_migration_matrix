@@ -1,0 +1,132 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{bookmark}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{natbib}
+\usepackage[font=small]{caption}
+\addtolength{\abovecaptionskip}{-3mm}
+\addtolength{\textfloatsep}{-5mm}
+\setlength\columnsep{20pt}
+
+\usepackage[a4paper,left=1.50cm, right=1.50cm, top=1.50cm, bottom=1.50cm]{geometry}
+
+
+\author{Yaning You}
+
+\title{2023--2024 Bloomberg Data Science Ph.D. Fellowship Application}
+
+\begin{document}
+	
+	\begin{center}
+		{\Large \textbf{A Deep Learning Approach to Default Risk Migration Matrices with LLM-encoded Data}}\\
+		\vspace{1em}
+		{\large Yaning You}\\
+		\vspace{1em}
+		\textit{Department of Statistics \& Actuarial Science, University of Western Ontario}
+	\end{center}
+	
+
+	\begin{center}
+		\rule{150mm}{0.2mm}
+	\end{center}		
+
+	\begin{abstract}
+	
+	I will finish this section later, no matter what happens.
+	
+	\textbf{Collaborators}: should I include anyone's names here?
+	\end{abstract}
+
+	\begin{center}
+		\rule{150mm}{0.2mm}
+	\end{center}		
+
+	\vspace{5mm}
+	
+\begin{multicols*}{2}
+
+\section{Introduction}
+
+This section introduces the scope of the research project. The section will begin with a discussion of the motivation behind the proposed project in terms of application scope and impact.
+The current practices in industry and its shortcomings will be discussed, which will be followed by an outline of objectives hoped to be achieved through this research. 
+Subsequently the proposal will go into an examination of existing work in predicting default migration matrices and estbalish where the project innovates beyond the current state of the art. 
+Finally, the main data sources to be used throughout the research project will be breifly examined.  
+ 
+\subsection{Motivation} 
+
+Corpoate defaults have implications beyond the company itself. It represents a loss in the company's investors, lenders, and depending on the number of defaults in a time period, the macroeconomy as a whole.
+Understanding the likelihood of an obligor defaulting helps creditors screen for potential borrowers for more secure returns, investors price instruments at fair value and manage portfolios, and regulators assess the state of the market and decide whether or not to intervene.
+Thus models of assessing default risk were created by these parties to quantify the risk and track it over time, one of the most popular models being credit ratings.  
+
+Credit ratings provide a relatively objective assessment of an obligor's ability to repay its existing debt based off of capital structure, historical performance, internal synergies and external influences on a letter scale.
+This perception of reliability in turn influences lending capacity, investment instrument pricing, corporate strategy, and regulatory oversight of the obligor as previously mentioned. 
+Credit ratings gained popularity and became one the most common methods of risk assessment due to two factors. Firstly, it is constructed mainly from obligor's financial and economic fundmanetal characteristics, lending the ratings to be highly explicable.
+More importantly, the ratings are arranged into a letter scale from the highest quality of AAA to companies already in default at D, allowing quick interpretation and decision making, providing a boon for portfolio managers who often face pressure to make high-impact decisions on a tight schedule.
+Naturally it has been adopted by many in risk modelling and investment management.
+
+However, the Great Financial Crisis of 2008 also exposed several weaknesses of the credit rating system as a investment decision making tool. The letter gradings are still too coarse to assess the credit quality of an obligor outside of screening purposes.
+Furthermore, credit ratings are assigned relative to other companies within each rating agency; this not only makes aggregration of obligors difficult, but also does not clearly translate to the actual risk of default aside from observing historical rates experienced in each category and performing extrapolations.
+This means credit ratings are a lagging indicator and are slow to adapt changes in the general state of the economy, particularly changes in the broad environment that may not be directly correlated with the firm, giving the rise in demand for a more granular and objective measure of default risk.
+Thus Probability of Default (PD) models are born.
+    
+\subsubsection{Probability of Default (PD)}
+
+Unlike credit ratings which assign obligors to a finite, often restrictive, set of credit quality indicators, a PD estimates a concrete probability to the obligor experiencing financial default.
+This allows rigorous comparisons between firms across agencies, scientific examinations of risk management practices, and timely updates. Despite not as widely accepted as credit ratings, 
+mostly due to lack of business familiarity and entrenchment of current regulatory practices around the old system, PDs are widely studied in econometrics, financial mathematics and machine learning.
+Additionally, S\&P itself are offering PD estimates for obligors in its database, clearly indicating that PDs are beginning to gain traction for commercial use.
+
+\subsection{Objectives}
+
+\subsection{Previous Works}
+
+\subsection{Data Usage}
+
+\section{Methodology}
+
+%\begin{itemize}
+%    \item briefly describe the broad research area of the proposal;
+%    \item the limitations of current research this proposal aims to address;
+%    \item the motivation and impact of the work planned in this research proposal;
+%    \item any additional background required for understanding the proposal.
+%\end{itemize}
+%
+%\begin{table*}
+%	\centering
+%	\begin{tabular}{cc}
+%		\hline
+%		\textbf{Citation format} & \textbf{Citation command} \\
+%		\hline
+%		\citet{APA:83} & \textbackslash{}citet{} \\
+%		\citep{APA:83} & \textbackslash{}citep{} \\
+%		\hline
+%	\end{tabular}
+%	\caption{This is sample table with full page width.}
+%	\label{tbl:tbl1}
+%\end{table*}
+%
+%	
+%\begin{figure}[H]
+%    \centering
+%	\includegraphics[width=\columnwidth]{example-image}
+%	\caption{This is a sample figure.}
+%	\label{fig:fig1}
+%\end{figure}
+
+\end{multicols*}
+
+\clearpage
+
+\bibliography{proposal}
+\bibliographystyle{plainnat}
+	
+\end{document}
