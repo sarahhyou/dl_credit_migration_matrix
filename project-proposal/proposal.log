@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  9 OCT 2024 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  10 OCT 2024 00:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -458,7 +458,7 @@ Package caption Info: End \AtBeginDocument code.
 
 [1
 
-{C:/Users/wwwia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (proposal.bbl
+{C:/Users/wwwia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] (proposal.bbl
 LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
  (C:\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -483,7 +483,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
 )
 
-[3
+[4
 
 ] (proposal.aux)
  ***********
@@ -492,17 +492,17 @@ L3 programming layer <2024-05-08>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13238 strings out of 473938
- 206650 string characters out of 5743806
+ 13252 strings out of 473938
+ 206796 string characters out of 5743806
  1951893 words of memory out of 5000000
- 35897 multiletter control sequences out of 15000+600000
+ 35901 multiletter control sequences out of 15000+600000
  562407 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,5n,93p,465b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,5n,93p,658b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on proposal.pdf (3 pages, 130720 bytes).
+Output written on proposal.pdf (4 pages, 141685 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
