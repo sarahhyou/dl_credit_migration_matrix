@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  11 OCT 2024 14:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  12 OCT 2024 19:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -458,7 +458,7 @@ Package caption Info: End \AtBeginDocument code.
 
 [1
 
-{C:/Users/wwwia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] (proposal.bbl
+{C:/Users/wwwia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] (proposal.bbl
 LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
  (C:\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -467,59 +467,44 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
  (C:\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 7256) in paragraph at lines 59--64
-[]\OT1/cmr/m/n/10 A. Chen and G. Bal-das-sarri.  Pd model fun-da-men-tals: Banks - a pi-o-neer model for as-sess-
- []
-
-
-Underfull \hbox (badness 2057) in paragraph at lines 59--64
-\OT1/cmr/m/n/10 ing bank cred-it-wor-thi-ness, 2015.  URL []$\OT1/cmtt/m/n/10 https : / / www . spglobal . com / marketintelligence / en / documents /
- []
-
-
-Underfull \hbox (badness 2828) in paragraph at lines 126--134
+Underfull \hbox (badness 2828) in paragraph at lines 103--111
 \OT1/cmr/m/n/10 mixed bound-ary con-di-tions.  In S. Koyejo, S. Mo-hamed, A. Agar-wal, D. Bel-grave, K. Cho, and
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 126--134
+Underfull \hbox (badness 2818) in paragraph at lines 103--111
 \OT1/cmr/m/n/10 A. Oh, ed-i-tors, \OT1/cmr/m/it/10 Ad-vances in Neu-ral In-for-ma-tion Pro-cess-ing Sys-tems\OT1/cmr/m/n/10 , vol-ume 35, pages 23218--23229.
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 126--134
+Underfull \hbox (badness 1762) in paragraph at lines 103--111
 \OT1/cmr/m/n/10 Cur-ran As-so-ciates, Inc., 2022.  URL []$\OT1/cmtt/m/n/10 https : / / proceedings . neurips . cc / paper _ files / paper / 2022 / file /
  []
 
 
 
-[5
+[4
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
-[]\OT1/cmr/m/n/10 Fitch Rat-ings.  Fitch port-fo-lio credit model, 2013.  URL []$\OT1/cmtt/m/n/10 https : / / www . fitchratings . com /
- []
+])
 
-)
-
-[6] (proposal.aux)
+[5] (proposal.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13361 strings out of 473938
- 208240 string characters out of 5743806
- 1951893 words of memory out of 5000000
- 35982 multiletter control sequences out of 15000+600000
- 562407 words of font info for 53 fonts, out of 8000000 for 9000
+ 13328 strings out of 473938
+ 207667 string characters out of 5743806
+ 1954893 words of memory out of 5000000
+ 35959 multiletter control sequences out of 15000+600000
+ 562099 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,5n,93p,818b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on proposal.pdf (6 pages, 191736 bytes).
+<C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on proposal.pdf (5 pages, 160760 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -46,21 +46,6 @@ Florian Bourgey, Emmanuel Gobet, and Cl\'{e}ment Rey.
   (4):\penalty0 1098--1136, 2020.
 \newblock \doi{10.1137/19M1292084}.
 \newblock URL \url{https://doi.org/10.1137/19M1292084}.
-
-\bibitem[Chava and Jarrow(2004)]{chava}
-Sudheer Chava and Robert~A. Jarrow.
-\newblock {Bankruptcy Prediction with Industry Effects*}.
-\newblock \emph{Review of Finance}, 8\penalty0 (4):\penalty0 537--569, 01 2004.
-\newblock ISSN 1572-3097.
-\newblock \doi{10.1093/rof/8.4.537}.
-\newblock URL \url{https://doi.org/10.1093/rof/8.4.537}.
-
-\bibitem[Chen and Baldassarri(2015)]{SP-PD-methodology}
-A.~Chen and G.~Baldassarri.
-\newblock Pd model fundamentals: Banks - a pioneer model for assessing bank
-  creditworthiness, 2015.
-\newblock URL
-  \url{https://www.spglobal.com/marketintelligence/en/documents/pd-model-fundamentals-banks-a-pioneer-model-for-assessing-bank-creditworthiness.pdf}.
 
 \bibitem[Duan and Li(2021{\natexlab{a}})]{duan2021}
 Jin-Chuan Duan and Shuping Li.
@@ -114,14 +99,6 @@ Darrell Duffie, Leandro Saita, and Ke~Wang.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0304405X06002029}.
 
-\bibitem[Hillegeist(2004)]{hillegeist}
-Stephen A. et~al. Hillegeist.
-\newblock Assessing the probability of bankruptcy.
-\newblock \emph{Review of Accounting Studies}, 9\penalty0 (1), 3 2004.
-\newblock ISSN 1573-7136.
-\newblock \doi{10.1023/B:RAST.0000013627.90884.b7}.
-\newblock URL \url{https://doi.org/10.1023/B:RAST.0000013627.90884.b7}.
-
 \bibitem[Horie and Mitsume(2022)]{horie}
 Masanobu Horie and Naoto Mitsume.
 \newblock Physics-embedded neural networks: Graph neural pde solvers with mixed
@@ -131,12 +108,6 @@ Masanobu Horie and Naoto Mitsume.
   pages 23218--23229. Curran Associates, Inc., 2022.
 \newblock URL
   \url{https://proceedings.neurips.cc/paper_files/paper/2022/file/93476ae409ae3246e22a9d4b931f84ed-Paper-Conference.pdf}.
-
-\bibitem[Hull and White(2000)]{hull}
-John Hull and Alan White.
-\newblock {Valuing Credit Default Swaps II: Modelling Default Correlations}.
-\newblock Technical report, Joseph L. Rotman School of Management, University
-  of Toronto, Toronto, 2000.
 
 \bibitem[Korangi et~al.(2023)Korangi, Mues, and Bravo]{korangi}
 Kamesh Korangi, Christophe Mues, and Cristián Bravo.
@@ -176,13 +147,6 @@ Feng Mai, Shaonan Tian, Chihoon Lee, and Ling Ma.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0377221718308774}.
 
-\bibitem[Moody's(2018)]{Moodys-PD-methodology}
-Moody's.
-\newblock Features of a lifetime pd model: Evidence from public, private, and
-  rated firms, 2018.
-\newblock URL
-  \url{https://www.moodys.com/web/en/us/insights/credit-risk/features-of-a-lifetime-pd-model.html}.
-
 \bibitem[Ohlson(1980)]{ohlson}
 James~A. Ohlson.
 \newblock Financial ratios and the probabilistic prediction of bankruptcy.
@@ -197,11 +161,6 @@ Bryan Perozzi, Bahare Fatemi, Dustin Zelle, Anton Tsitsulin, Mehran Kazemi,
   Rami Al-Rfou, and Jonathan Halcrow.
 \newblock Let your graph do the talking: Encoding structured data for llms,
   2024.
-
-\bibitem[Ratings(2013)]{Fitch-PD-methodology}
-Fitch Ratings.
-\newblock Fitch portfolio credit model, 2013.
-\newblock URL \url{https://www.fitchratings.com/fitch-portfolio-credit-model}.
 
 \bibitem[Shumway(2001)]{shumway}
 Tyler Shumway.
