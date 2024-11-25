@@ -2,6 +2,10 @@
 #Creator: Sarah You
 #Objective: write function that combines data from separate excel spreadsheets specifically in the `month_avg_stock` folder into a single dataframe
 
+#2024/11/20
+#Addendum: this function combines data from separate excel spreadsheets separated by size constraints 
+#(ie. the .xls file was too small to hold all data entries so it had to be saved into two files)
+
 #Import required libraries
 import os, glob
 import pandas as pd
@@ -13,7 +17,7 @@ base_dir = os.path.abspath(os.path.join(script_dir, '..', '..'))
 
 for dir_name in ['S&P 500', 'SPE 350', 'TSX']:
     # Build the path to the specific file directory
-    data_dir = os.path.join(base_dir, 'month_avg_stock', dir_name)
+    data_dir = os.path.join(base_dir, 'month_avg_stock', 'base data', dir_name)
     # Create a pattern to match Excel files in the directory
     pattern = os.path.join(data_dir, '*.xls')
     # Get a list of all Excel files matching the pattern
